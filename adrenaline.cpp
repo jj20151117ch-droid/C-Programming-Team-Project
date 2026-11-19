@@ -37,8 +37,7 @@ int adrenaline(int user)
         for (int i = 0; i < 8; i++)
         {
             if (enemyinventory[i] > 0)
-                printf("%d. %s (%d개)\n",
-                    i + 1, itemname[i], enemyinventory[i]);
+                printf("%d. %s (%d개)\n",i + 1, itemname[i], enemyinventory[i]);
         }
 
         printf("0. 취소\n");
