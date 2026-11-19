@@ -14,7 +14,7 @@ void enemyuseitem(int bullet[], int* allbullet, int* myHP, int* enemyHP)
         // 1. 담배 우선 사용
         if (enemyinventory[2] > 0 && *enemyHP < maxHP)
         {
-            printf("딜러가 담배를 사용했습니다!\n");
+            
             cigarette(2, myHP, enemyHP);
             enemyinventory[2]--;
             continue;
