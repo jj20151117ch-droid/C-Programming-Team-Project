@@ -78,7 +78,7 @@ int adrenaline(int user)
     }
     else
     {
-        // 딜러는 기존처럼 무작위로 선택
+       
         for (int i = 0; i < 8; i++)
             count += inventory[i];
 
