@@ -92,7 +92,7 @@ void enemyuseitem(int bullet[], int* allbullet, int* myHP, int* enemyHP)
             (item == 1 && enemyknowbullet == 1) ||
             (item == 3 && magnifierused == 1));
 
-        printf("딜러가 %d번 아이템을 사용했습니다!\n", item + 1);
+       
 
         switch (item)
         {
